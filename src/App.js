@@ -10,10 +10,10 @@ function App() {
     console.log("ON MOUNT:");
     async function fetchMovies() {
       const response = await axios.get(
-        "http://www.omdbapi.com/?s=love&apikey=804956f8"
+        "http://www.omdbapi.com/?s=love&apikey=APIKEY_HERE"
       );
       console.log(response.data.Search);
-      setMovies(response.data.Search);
+      setMovies(response.data.Search); // trigger rerender
     }
 
     fetchMovies();
