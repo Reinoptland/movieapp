@@ -33,6 +33,12 @@ function App() {
           {movies ? (
             movies.map((movie) => {
               console.log(movie);
+              return (
+                <div key={movie.imdbID}>
+                  <h1>{movie.Title}</h1>
+                  <img src={movie.Poster} />
+                </div>
+              );
             })
           ) : (
             <h1>Loading</h1>

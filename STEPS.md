@@ -26,6 +26,6 @@ Present the data in the new update cycle
 > Dus: map
 
 - [x] conditional schrijven: what if we don't have data?
-- [ ] movies.map -> data laten zien
+- [x] movies.map -> data laten zien
 
 Userstory: as a user I want to search movies by filling in a keyword
