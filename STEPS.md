@@ -10,7 +10,17 @@ Fetching
 
 - [x] Import useEffect
 - [x] Set a useEffect to trigger onMount
-- [ ] Write an async function to fetch data
-- [ ] Call it in your useEffect
+- [x] Write an async function to fetch data
+- [x] Call it in your useEffect
+- [x] Check the data
+
+Trigger a rerender
+
+- [ ] make a state to store the data
+- [ ] when you get a response in useEffect, setState (store the data)
+
+Present the data in the new update cycle
+
+- [ ]
 
 Userstory: as a user I want to search movies by filling in a keyword
