@@ -27,7 +27,19 @@ function App() {
 
   return (
     <div className="App">
-      <header className="App-header">MOVIES:</header>
+      <header className="App-header">
+        MOVIES:
+        <div>
+          {movies ? (
+            movies.map((movie) => {
+              console.log(movie);
+            })
+          ) : (
+            <h1>Loading</h1>
+          )}
+          {/* we zien objecten -> we zien alle films */}
+        </div>
+      </header>
     </div>
   );
 }

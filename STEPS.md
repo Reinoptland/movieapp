@@ -21,6 +21,11 @@ Trigger a rerender
 
 Present the data in the new update cycle
 
-- [ ]
+> "[{}, {}, {}] =>
+> [<h1>Crazy in Love</h1>, <h1>Love actually</h1>, <h1>What is love</h1>]"
+> Dus: map
+
+- [x] conditional schrijven: what if we don't have data?
+- [ ] movies.map -> data laten zien
 
 Userstory: as a user I want to search movies by filling in a keyword
